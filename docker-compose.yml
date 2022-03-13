@@ -1,0 +1,8 @@
+version: "3"
+services:
+  android-setup:
+    image: mryoga12345/alpine-jdk-8-fastlane-ndk:latest
+    build: .
+    tty: true
+    volumes:
+      - '~/code/:/root/code'
