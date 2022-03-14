@@ -38,6 +38,7 @@ RUN apk update && apk upgrade
 # Deps
 RUN apk add --update \
     ca-certificates \
+    curl \
     wget \
     bash \
     unzip \
